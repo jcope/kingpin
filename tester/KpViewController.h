@@ -10,7 +10,7 @@
 
 #import <MapKit/MapKit.h>
 
-@interface ViewController : UIViewController <MKMapViewDelegate>
+@interface KpViewController : UIViewController <MKMapViewDelegate>
  
 @property (strong, nonatomic) IBOutlet MKMapView *mapView;
 @property (strong, nonatomic) IBOutlet UISwitch *animationSwitch;

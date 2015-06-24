@@ -18,13 +18,13 @@
 
 static const int kNumberOfTestAnnotations = 100000;
 
-@interface ViewController () <KPClusteringControllerDelegate, KPClusteringControllerDelegate>
+@interface KpViewController () <KPClusteringControllerDelegate, KPClusteringControllerDelegate>
 
 @property (strong, nonatomic) KPClusteringController *clusteringController;
 
 @end
 
-@implementation ViewController
+@implementation KpViewController
 
 - (void)viewDidLoad {
 

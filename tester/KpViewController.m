@@ -6,7 +6,7 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "KpViewController.h"
 
 #import "KPAnnotation.h"
 #import "KPGridClusteringAlgorithm.h"
